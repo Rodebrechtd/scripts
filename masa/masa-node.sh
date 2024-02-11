@@ -4,7 +4,7 @@ source variables.sh
 
 #Git Clone
 function git_clone {
-    echo "Clonening ${repo}..."
+    echo "Cloning ${repo}..."
     git clone ${repo}
     echo "${repo} cloned..."
 }
@@ -56,7 +56,7 @@ function go_build {
 function install_contracts {
     echo "Installing contracts..."
     cd contracts/
-    npm instal
+    npm install
     cd ..
     echo "Contracts installed..."
 }
